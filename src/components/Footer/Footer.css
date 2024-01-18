@@ -1,0 +1,38 @@
+/* Design du footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2f2a2a;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    justify-content: space-around;
+    gap: 2em;
+    overflow-x: hidden;
+}
+
+footer li {
+    list-style: none;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+footer li {
+    font-weight: 400;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    gap: 30em;
+}
+span {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+
+#credits {
+    padding-top: 1em;
+    color: #fff;
+}

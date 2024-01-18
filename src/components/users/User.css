@@ -1,0 +1,10 @@
+/* Simple réglage de la taille d'affichage de la page */
+
+#user {
+    margin-top: 0em;
+    text-align: center;
+}
+
+#taille {
+    padding: 30vh;
+}

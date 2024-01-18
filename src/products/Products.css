@@ -1,0 +1,73 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Good Sans';
+    src: url(../fonts/Good-Sans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Futura';
+    src: url(../fonts/FuturaLTPaneuropeanHeavy.ttf);
+}
+
+/* Basics */
+
+#product-container {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Left side */
+
+#product-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10em;
+    margin-left: 8em;
+}
+
+h3 {
+    font-family: 'Good sans', sans-serif;
+    font-size: 2.5em;
+}
+
+h4 {
+    font-family: 'Futura';
+    font-size: 1.5em;
+}
+
+#quantityAdd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#quantityAdd p {
+    margin-right: 1em;
+}
+
+#buy {
+    background: #e25530;
+    border: 2px solid #e25530;
+    color: #fff;
+    padding: 1em 4em;
+    font-size: 1.2em;
+    transition: 0.2s;
+}
+
+#buy:hover {
+    background: #fff;
+    color: #e25530;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#product-img {
+    margin-left: 20em;
+    width: 80%;
+    height: auto;
+}

@@ -1,0 +1,142 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Good Sans';
+    src: url(./fonts/Good-Sans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Futura';
+    src: url(./fonts/FuturaLTPaneuropeanHeavy.ttf);
+}
+
+/* Basics */
+
+* {
+    font-family: 'Good Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.logo-txt {
+    font-family: 'Futura', sans-serif;
+    color: black;
+    font-size: 2em;
+    transition: 0.2s;
+}
+
+.logo-txt:hover {
+    transition: 0.2s;
+    opacity: 0.7;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 0.5em;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1em;
+}
+
+i, ul a {
+    color: black;
+
+}
+
+li {
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+li:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+i {
+    margin-left: 1em;
+    transition: 0.2s;
+}
+
+i:hover {
+    transition: 0.2s;
+    opacity: 0.7;
+}
+
+ul {
+    padding: 1em 0em;
+    transition: 0.2s;
+}
+
+.menu-inactive {
+    color: lightgrey;
+}
+
+.menu-active {
+    color: black;
+}
+
+/* Page shop */
+
+#shop {
+    margin-top: 10em;
+    display: grid;
+    grid: repeat(2, 23em) / auto-flow 22em;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+#shop > div {
+    width: 20em;
+    height: 20em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+#shop a {
+    color: black;
+    font-weight: 900;
+    
+}
+
+#shop img:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#shop li {
+    cursor: pointer;
+}
+
+#infoProduits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#prixProduits {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}

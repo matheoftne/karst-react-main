@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Good Sans';
+    src: url(Good-Sans-Regular.ttf);
+}
+
+
+body {
+    font-family: 'Good Sans', sans-serif;
+}

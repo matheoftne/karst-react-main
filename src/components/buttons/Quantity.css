@@ -1,0 +1,36 @@
+/* Styling de la partie quantité */
+#quantityAdd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#quantityAdd p {
+    margin-right: 1em;
+}
+
+#quantityAdd button {
+    border: none;
+    margin-left: 0.5em;
+}
+
+#quantityAdd button:hover {
+    cursor: pointer;
+}
+
+span {
+    margin-left: 0.6em;
+    width: 1em;
+}
+
+#btnQtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#left {
+    overflow-y: hidden;
+    position: fixed;
+    left: 10em;
+}
